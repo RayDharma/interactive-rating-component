@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-component {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(213, 19%, 18%);
+}
+
+.main-component h3 {
+    line-height: 25px;
+}
+
+.second-component {
+    color: #fff;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.second-component h5 {
+    width: 100%;
+    max-width: max-content;
+    display: flex;
+}
+
+.second-component h3 {
+    line-height: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.rate-button.active {
+    background-color: hsl(217, 12%, 63%) !important;
+}
+
+.rate-button:hover {
+    background-color: hsl(217, 12%, 63%) !important;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #fff !important;
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution a:hover {
+    color: aqua !important; 
+}
